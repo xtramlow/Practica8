@@ -17,3 +17,6 @@ scanf("%c",&op);
 getchar();
 }
 while (op == 'S' || op == 's');
+printf("El promedio de las calificaciones ingresadas es: %lf\n", sum/veces);
+return 0;
+}
